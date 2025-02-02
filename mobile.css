@@ -48,15 +48,13 @@
 
 @media (max-width:799px) {
 
-    .back-top {
-        width: 30px;
-        height: 30px;
-        right: 3.5rem;
-        /* bottom: 3rem; */
+    html, body {
+        overflow-x: hidden;
     }
-
-    .back-top i{
-        font-size: 2rem;
+    
+    .back-top{
+        right: 1rem;
+        transform: translateX(-50%);
     }
     /* navbar section */
     #header {
@@ -291,11 +289,6 @@
 
 
 @media (max-width:477px) {
-
-    /* .back-top {
-        right: 4rem;
-    } */
-
     .form input {
         width: 230px;
     }

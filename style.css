@@ -31,6 +31,7 @@
 body {
     scroll-behavior: smooth;
     font-family: "Ubuntu", "Poppins", serif;
+    /* overflow: hidden; */
 }
 
 .back-top{
@@ -49,7 +50,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    z-index: 1100;
+    overflow: hidden;
 }
 
 .back-top i{
