@@ -360,21 +360,24 @@
     #hero {
         background-position: 45% 80%;
         height: 55vh;
-        padding: 70px 40px;
+        padding: 70px 20px;
     }
 
     .hero-content h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
     }
 
     .hero-content h1 {
-        font-size: 2.4rem;
+        font-size: 1.99rem;
     }
 
     .hero-content p {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
+    .btn {
+        padding: 15px 55px;
+    }
     #header {
         padding: 15px;
 
