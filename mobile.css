@@ -48,6 +48,16 @@
 
 @media (max-width:799px) {
 
+    .back-top {
+        width: 30px;
+        height: 30px;
+        right: 3.5rem;
+        /* bottom: 3rem; */
+    }
+
+    .back-top i{
+        font-size: 2rem;
+    }
     /* navbar section */
     #header {
         padding: 20px 40px;
@@ -281,6 +291,11 @@
 
 
 @media (max-width:477px) {
+
+    /* .back-top {
+        right: 4rem;
+    } */
+
     .form input {
         width: 230px;
     }
