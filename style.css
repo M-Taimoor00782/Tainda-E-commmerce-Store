@@ -33,6 +33,28 @@ body {
     font-family: "Ubuntu", "Poppins", serif;
 }
 
+.back-top{
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    right: 1.2rem;
+    width: 40px;
+    height: 40px;
+    background-color: var(--nav-hover);
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.back-top i{
+    color: #fff;
+    font-size: 2.3rem;
+}
 h1 {
     font-size: 64px;
     font-weight: 800;
